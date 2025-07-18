@@ -1,0 +1,52 @@
+{
+  "name": "multisig-wallet",
+  "version": "1.0.0",
+  "description": "A collaborative multi-signature wallet management system for Solana",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.34",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-wallets": "^0.19.23",
+    "@solana/spl-token": "^0.3.9",
+    "next": "14.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.2",
+    "@types/node": "^20.9.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "tailwindcss": "^3.3.5",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "lucide-react": "^0.292.0",
+    "react-hot-toast": "^2.4.1",
+    "zustand": "^4.4.6",
+    "date-fns": "^2.30.0",
+    "axios": "^1.6.2",
+    "bs58": "^5.0.0",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-config-next": "14.0.3"
+  },
+  "keywords": [
+    "multisig",
+    "wallet",
+    "solana",
+    "blockchain",
+    "collaborative",
+    "signature"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+} 
